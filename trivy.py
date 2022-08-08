@@ -17,7 +17,8 @@ files = {
     'file': open('trivy.json', 'rb'),
     'product_name': (None, 'Testphp vulnweb'),
     'scan_date': (None, '2022-06-14'),
-    'engagement_name': (None, 'Triv'),
+    'engagement_name': (None, 'Trivy'),
 }
 
 response = requests.post('http://161.97.136.120:8080/api/v2/import-scan/', headers=headers, files=files)
+print(response.content)
