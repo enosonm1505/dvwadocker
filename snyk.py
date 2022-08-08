@@ -14,7 +14,7 @@ files = {
     'scan_type': (None, 'Trivy Scan'),
     'close_old_findings': (None, 'true'),
     'push_to_jira': (None, 'false'),
-    'file': open('snyk.json', 'rb'),
+    'file': open('vyln.json', 'rb'),
     'product_name': (None, 'Testphp vulnweb'),
     'scan_date': (None, '2022-06-14'),
     'engagement_name': (None, 'snyk'),
