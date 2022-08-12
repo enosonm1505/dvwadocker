@@ -14,7 +14,7 @@ files = {
     'close_old_findings': (None, 'true'),
     'push_to_jira': (None, 'false'),
     'file': open('gitleaks.json', 'rb'),
-    'product_name': (None, 'Testphp vulnweb'),
+    'product_name': (None, 'Damn-Uat'),
     'scan_date': (None, '2022-06-14'),
     'engagement_name': (None, 'gitleaks'),
 }
