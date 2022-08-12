@@ -14,10 +14,10 @@ files = {
     'close_old_findings': (None, 'true'),
     'push_to_jira': (None, 'false'),
     'file': open('semgrep.json', 'rb'),
-    'product_name': (None, 'Testphp vulnweb'),
+    'product_name': (None, 'Damn-Uat'),
     'scan_date': (None, '2022-06-14'),
-    'engagement_name': (None, 'Semgrep'),
+    'engagement_name': (None, 'Damn-Uat'),
 }
 
-response = requests.post('http://161.97.136.120:8080/api/v2/import-scan/', headers=headers, files=files)
+response = requests.post('http://161.97.136.120:8080/api/v2/reimport-scan/', headers=headers, files=files)
 print(response.content)
